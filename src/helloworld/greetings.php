@@ -1,12 +1,17 @@
 <?php
+
 namespace HelloWorld;
 
-use PHP_Timer;
+use SebastianBergmann\Timer\Timer;
 
-class Greetings {
-  public static function sayHelloWorld() {
-    $timer = new PHP_Timer();
-    $timer->start();
-    return "Hello World\n" . $timer->resourceUsage() . "\n";
-  }
+class Greetings
+{
+
+    public static function sayHelloWorld()
+    {
+        $timer = new Timer();
+        $timer->start();
+        return PHP_EOL . 'Hello World' . PHP_EOL . $timer->resourceUsage() . PHP_EOL;
+    }
+
 }
