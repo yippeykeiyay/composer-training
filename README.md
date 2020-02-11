@@ -2,6 +2,8 @@
 
 This repo is forked from [frob/greetings](https://github.com/frob/greetings) but I've modernised it a little.
 
+The original repo relates to [this tutorial on some composer basics](https://www.frobiovox.com/posts/2016/08/16/basic-hello-world-with-composer-and-php.html).
+
 ## Installation
 
 ### Prerequisites
@@ -40,12 +42,12 @@ composer.lock
 composer.json
 README.md
 tests/
-    > test.php
+    test.php
 vendor/
-    > autoload.php
-    > composer/
-    > phpunit/
+    autoload.php
+    composer/
+    phpunit/
 src/
-    > helloworld/
-        > greetings.php
+    helloworld/
+        greetings.php
 ```
